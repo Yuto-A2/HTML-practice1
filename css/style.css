@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+
+/*page setting*/
+body {
+    font-family: Noto Sans JP;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    position: absolute;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h2 {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+h3 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+/*--header--*/
+.headerContainer {
+    background: #4E2613; 
+    display: flex;
+    flex-direction: column;
+    height:     180px
+}
+
+.headerBox {
+   align-items: center;
+   margin-left: 170px;
+   margin-top: 70px;
+}
+
+.logoimg {
+    width: 192px;
+    height: 45px;
+}
+
+/*headerbox1*/
+.headerBox1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.phoneIcon {
+    width: 32px;
+    height: 32px;
+    margin-right: 5px;
+    margin-top: -80px;
+}
+
+.phoneNum {
+    color: #F7F4F2;
+    font-size: 48px;
+    font-weight: 700;
+    margin-right: 160px;
+    margin-top: -100px;
+}
+/*/headerBox1*/
+
+/*headerBox2*/
+.headerBox2 {
+    display: flex;
+    justify-content: right;
+    margin-top: 10px;
+    margin-right: 490px;
+    margin-bottom: 16px;
+}
+
+.hourIcon {
+    margin-top: -45px;
+    margin-right: -5px;
+    width: 32px;
+    height: 32px;
+}
+
+/*headerBox3*/
+.headerBox3 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        margin-top: -75px;
+        margin-right: 177px;
+    }
+
+.openHour {
+    width: 300px;
+    font-weight: 400;
+    color: #F7F4F2;
+    margin-bottom: -3px;
+}
+
+.openHour2 {
+    width: 300px;
+    font-weight: 400;
+    color: #F7F4F2;
+    padding-bottom: -80px;
+}
+/*--/header--*/
+
+/*nav*/
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    max-width: 1120px;
+    list-style-type: none;
+    display: flex;
+    justify-content: row;
+    margin: 0;
+}
+
+nav li a {
+    color: #030202;
+    text-decoration: none;
+}
+
+nav li {
+    font-weight: 700;
+}
+
+.navMenu {
+    display: flex;
+    border-right: solid 3px #807D7C;
+    justify-content: center; 
+    align-items: center;
+    height: 56px;
+    width: 1000px;
+}
+
+.navMenu2 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-right: 100px;
+    width: 1000px;
+}
+/*--/nav--*/
+
+/**bannar photo*/
+.bannarimg {
+    background: url("../img/coffee.png") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 810px; 
+    position: absolute;  
+}
+
+.bannarMsg {
+    position: relative;
+    margin-top: 380px;
+    margin-left: 300px;
+    color: #F7F4F2;
+}
+/*/bannar photo*/
+
+/*--main--*/
+.headerCMS {
+    margin-top: 400px;
+    text-align: center;
+}
+
+.cmsContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.cmsContainer img {
+    margin-top: -30px;
+    margin-left: 160px;
+    width: 544px;
+    height: 637px;
+}
+
+.cmsBox1 {
+    margin-top: 50px;
+}
+
+.cmsBox2 {
+    width: 544px;
+    margin-left: 32px;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 39px;
+} 
+
+/*お知らせ*/
+
+.newsContainer1 img {
+    width: 544px;
+    height: 306px;
+    margin-right: 32px;
+}
+
+.newsContainer2 img {
+    width: 544px;
+    height: 306px;
+    margin-right: 32px;
+}
+
+
+.newsContainer1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.newsImgBox1 {
+    flex: 1 1 400px;
+    margin-left: 160px;
+}
+
+.newsBox1{
+    flex: 1 1 580px;
+}
+
+.newslist {
+    list-style-type: none;
+}
+
+.header4 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.date {
+    margin-right: 20px;
+}
+
+.news {
+    width: 93px;
+    text-align: center;
+    color: #F7F4F2;
+    border: solid 1px #4E4D13;
+    background: #4E4D13;
+    padding:5px;
+}
+
+.article {
+    color: #807D7C;
+    font-weight: 400;
+}
+
+.newsContainer2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 32px;
+}
+
+.backNumBtn {
+    display: block;
+    margin: auto;
+    border: solid 1px #4E1328;
+    background: #4E1328;
+    width: 360px;
+    height: 100px;
+    font-weight: 700;
+    color: #F7F7F7;
+    margin-top: 40px;
+}
+/*/お知らせ*/
+
+/*メニュー*/
+.menuContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.menuContainer img {
+   width: 544px;
+   height: 306px;
+   margin-right: 35px;
+}
+
+.menuBox1, .menuBox3 {
+    margin-left: 160px;
+}
+
+.menuBox2, .menuBox4 {
+    margin-right: 160px;
+}
+
+.menuContainer p {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+/*店舗案内*/
+.guideBox1 {
+    width: 544px;
+    height: 306px;
+    margin-left: 160px;
+}
+
+.guideContainer {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.guideList {
+    list-style-type: none;
+}
+
+.boldInfo {
+    font-weight: bold;
+}
+
+.guideInfo2 {
+    margin-bottom: 30px;
+}
+
+.guideBox2 {
+    width: 545px;
+}
+/*--/main--*/
+
+
+/*footer*/
+footer {
+    background: #4E2613;
+    color: #F7F4F2;
+}
+
+.footerBox1 {
+    width: 192px;
+    height: 45px;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerList {
+    list-style-type: none;
+}
+
+footer li {
+    text-align: center;
+}
+
+.footerBpxList {
+    margin-bottom: 32px;
+}
