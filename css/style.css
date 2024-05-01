@@ -332,6 +332,36 @@ nav li {
 
 
 /*footer*/
+.upperDirection {
+    margin-right: 160px;
+    margin-left: auto;
+    transform: translateY(25%);
+    border: solid 1px #F7F7F7;
+    border-radius: 50px;
+    width: 80px;
+    height: 80px;
+}
+
+.upperLeft {
+    border-left: solid 2px #F7F7F7;
+    width: 8px;
+    height: 16px;
+    transform: rotate(45deg);
+    position: relative;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+
+.upperRight {
+    border-left: solid 2px #F7F7F7;
+    width: 8px;
+    height: 16px;
+    transform: rotate(-45deg);
+    position: relative;
+    margin-left: 42px;
+    margin-top: -21px;
+}
+
 footer {
     background: #4E2613;
     color: #F7F4F2;
